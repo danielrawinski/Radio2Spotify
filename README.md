@@ -12,7 +12,7 @@ I would really like to thank TheComeUpCode for her YouTube tutorial about [gener
 
 ## Spotify API
 Using an expirable Spotify token is impractical, as it expires after 1 hour. Therefore, this code is using refresh tokens (token_refresher class), a request inside this class returns an access token to be used in the next request and a refresh token to be used when token refresher is used next time. More information about using Spotify API can be found [here](https://developer.spotify.com/documentation/general/guides/)
-*add more info about using Spotify API
+*add more info about using Spotify API*
 
 ## Scraping: one song versus a playlist
 The code of this project covers both scenarios: radio station (or a third-party service) providing a whole playlist `shonanscraper.py` as well as only single-song scenario in `opusscraper.py`. Note that some tweaks are made to resulting string in order to separate songs from artists' names, remove a release year (always added to the end of song name in LRT Opus case) and/or some other unneccessary characters. 
