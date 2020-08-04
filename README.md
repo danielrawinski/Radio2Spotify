@@ -8,7 +8,7 @@ Alternatively, maybe you've recently stumbled upon a radio station which you lov
 Well, all of these are the case for me, which is why (and for training myself) I've started this project, allowing me to export music from two of my favourite radio stations. In one case [LRT Opus](https://www.lrt.lt/mediateka/tiesiogiai/lrt-opus) only **now playing** songs are exported, as no playlist history is available, and for another one [Shonan Beach FM](https://www.beachfm.co.jp/) **historical playlist** for ca. latest hour is used.
 
 ## Acknowledgements
-I would really like to thank TheComeUpCode for her YouTube tutorial about [generating Spotify playlist based on YouTube liked videos](https://www.youtube.com/watch?v=7J_qcttfnJA) and, as to understand it, required some understanding of OOP, CoreyMSchafer for his [Python OOP tutorial](https://www.youtube.com/watch?v=ZDa-Z5JzLYM). 
+I would really like to thank @TheComeUpCode for her YouTube tutorial about [generating Spotify playlist based on YouTube liked videos](https://www.youtube.com/watch?v=7J_qcttfnJA) and, as to understand it, required some understanding of OOP, @CoreyMSchafer for his [Python OOP tutorial](https://www.youtube.com/watch?v=ZDa-Z5JzLYM). 
 
 ## Spotify API
 Using an expirable Spotify token is impractical, as it expires after 1 hour. Therefore, this code is using refresh tokens (token_refresher class), a request inside this class returns an access token to be used in the next request and a refresh token to be used when token refresher is used next time. More information about using Spotify API can be found [here](https://developer.spotify.com/documentation/general/guides/)
